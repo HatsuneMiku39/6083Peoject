@@ -1,0 +1,108 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+
+/* Labels and inputs styling */
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.LoginContent{
+  text-align: center;
+}
+
+.toleft{
+  text-align: left;
+}
+
+.UserMainPage{
+  text-align: center;
+}
+
+.RegisterPage{
+  text-align: center;
+}
+
+.RootMainPage{
+  text-align: center;
+}
+
+.ProfilePage{
+  text-align: center;
+}
+
+.userMainContent{
+  background-color: #CFCFCF;
+  border-radius: 2px;
+  border: 1px solid #d9ecff;
+}
+
+.userMainContentIn{
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  width: 25%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the overall Welcome Page */
+.WelcomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This will take the full height of the viewport */
+    background-color: #f4f4f4; /* Light grey background for better contrast */
+  }
+
+  h1 {
+    margin-bottom: 0.5em; /* Reduce space below headers */
+  }
+
+  /* Styling for links to look like buttons */
+  .LinkButton {
+    display: block; /* Makes the link fill the container width */
+    width: 200px; /* Fixed width for better control */
+    padding: 10px 20px;
+    margin: 10px 0; /* Space between buttons */
+    background-color: #007BFF; /* Bootstrap primary blue */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; /* Removes underline from links */
+    font-size: 16px; /* Larger text */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  .LinkButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
